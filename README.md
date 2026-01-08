@@ -33,19 +33,19 @@
 ## Реализация:
 ### Реализация в среде `Selectel Cloud Storage`:
 1) Настраиваю `bucket policy` таким образом, чтобы любой может читать файлы из определенного бакета и только я могу писать в него (`account_root`), скриншот (Access_policy.png): </br>
-<img width="576" height="436" alt="image" src="https://github.com/user-attachments/assets/65980e36-c4a5-43a3-a585-9de9e87f613c" /></br>
+<img width="568" height="425" alt="image" src="https://github.com/user-attachments/assets/f2824bef-37c2-4a82-952d-c9454d03e3bd" /></br>
 2) Создаю бакет в `Selectel Cloud Storage` скриншот (Create_backet_in_Selectel.png) с включением версионирования:</br>
-<img width="508" height="536" alt="image" src="https://github.com/user-attachments/assets/73e970fe-c11a-4d1f-b54e-ff78fab3bcf3" /></br>
+<img width="387" height="417" alt="image" src="https://github.com/user-attachments/assets/4ce91e7f-7491-4198-9f72-d4a6998d256f" /></br>
 3) Настраиваю `lifecycle policy` таким образом, чтобы через 3 дня объекты автоматически удалялись, скриншот (Lyfecycle_policy.png):</br>
-<img width="548" height="341" alt="image" src="https://github.com/user-attachments/assets/86f7552c-00db-4b0c-955a-42ed2e3e9133" /></br>
+<img width="631" height="526" alt="image" src="https://github.com/user-attachments/assets/4920ba6e-ac4c-471e-9163-7626ff4b7681" /></br>
 4) Скриншот (Empty_bucket.png) пустого бакета:</br>
-<img width="974" height="332" alt="image" src="https://github.com/user-attachments/assets/122a7959-f031-4c3e-b526-6c111b25e02c" /></br>
+<img width="659" height="386" alt="image" src="https://github.com/user-attachments/assets/35cb9873-849d-4e44-849a-243158cba48e" /></br>
 5) Скриншот (File_1767456594604087595_recovery_step1.png) несколько версий одного файла в бакете:</br>
-<img width="761" height="436" alt="image" src="https://github.com/user-attachments/assets/983fec5a-b050-48ff-a021-3bfce65b1c51" /></br>
+<img width="646" height="326" alt="image" src="https://github.com/user-attachments/assets/1b5f3df7-a7bf-4d55-a720-76b7de989d03" /></br>
 7) Скриншот (File_1767456594604087595_recovery_step2.png) восстановим одну из версий файла в бакете:</br>     
-<img width="627" height="437" alt="image" src="https://github.com/user-attachments/assets/c8f763bc-82ca-4db8-8cdb-126907bf0c65" /></br>
+<img width="609" height="329" alt="image" src="https://github.com/user-attachments/assets/516d3fa2-2975-4be1-b3ba-b5001674f5a5" /></br>
 8) Скриншот (File_1767456594604087595_recovery_step3.png) восстановили одну из версий файла в бакете:</br>
-<img width="645" height="331" alt="image" src="https://github.com/user-attachments/assets/6b4b8db3-a7b8-4eff-963a-f3db6928b2ae" /></br>
+<img width="630" height="325" alt="image" src="https://github.com/user-attachments/assets/0b1e8508-38e8-4e8f-8882-2d6392d85b8d" /></br>
 9) Затем нужно для восстановленного файла demo_versioning.txt нажать справа 3 вертикальные точки и выбрать Скачать.</br>
 
 ### Реализация проекта:    

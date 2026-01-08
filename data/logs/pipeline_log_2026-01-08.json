@@ -1,0 +1,62 @@
+[
+  {
+    "file_path": "D:\\DE\\DE_S3_projects_copy4\\data\\incoming\\employees_example.csv",
+    "file_name": "employees_example.csv",
+    "start_time": "2026-01-08T19:56:20.376469",
+    "success": true,
+    "error": null,
+    "records_processed": 15,
+    "records_filtered": 5,
+    "filtered_by_salary": 10,
+    "s3_path": "processed/2026-01-08/salary_filtered_employees_example_1767891380.csv",
+    "version_id": "1767891379914963771",
+    "salary_stats": {
+      "filtered_count": 10,
+      "salary_columns": [
+        "salary"
+      ],
+      "original_count": 15
+    },
+    "end_time": "2026-01-08T19:56:20.487536"
+  },
+  {
+    "file_path": "D:\\DE\\DE_S3_projects_copy4\\data\\incoming\\test_data.csv",
+    "file_name": "test_data.csv",
+    "start_time": "2026-01-08T19:56:27.642947",
+    "success": true,
+    "error": null,
+    "records_processed": 10,
+    "records_filtered": 6,
+    "filtered_by_salary": 4,
+    "s3_path": "processed/2026-01-08/salary_filtered_test_data_1767891387.csv",
+    "version_id": "1767891387225964625",
+    "salary_stats": {
+      "filtered_count": 4,
+      "salary_columns": [
+        "salary"
+      ],
+      "original_count": 10
+    },
+    "end_time": "2026-01-08T19:56:27.789687"
+  },
+  {
+    "file_path": "D:\\DE\\DE_S3_projects_copy4\\data\\incoming\\employees_example.csv",
+    "file_name": "employees_example.csv",
+    "start_time": "2026-01-08T19:57:13.992723",
+    "success": true,
+    "error": null,
+    "records_processed": 15,
+    "records_filtered": 5,
+    "filtered_by_salary": 10,
+    "s3_path": "processed/2026-01-08/salary_filtered_employees_example_1767891434.csv",
+    "version_id": "1767891433586764123",
+    "salary_stats": {
+      "filtered_count": 10,
+      "salary_columns": [
+        "salary"
+      ],
+      "original_count": 15
+    },
+    "end_time": "2026-01-08T19:57:14.158905"
+  }
+]

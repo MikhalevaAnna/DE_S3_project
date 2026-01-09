@@ -2,7 +2,6 @@ import sys
 import os
 import asyncio
 import time
-from config import config
 from pathlib import Path
 from typing import Optional
 import warnings

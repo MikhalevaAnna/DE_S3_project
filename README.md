@@ -52,10 +52,10 @@
 1) Структура проекта:
 ```
 ├── config/
-│   └── config.py
+│   └── config.py      # Файл конфигурации, здесь можно настроить фильтр по зарплате filter_threshold    
 ├── data/
 │   └── incoming/      # Папка для файлов, которые нужно обработать
-│   └── logs/
+│   └── logs/          # Логи работы скриптов
 │   │   └── pipeline_log_2026-01-08.json  
 |   │   └── pipeline_task3_20260108_195619.log
 │   │   └── pipeline_tasks_1&2_20260108_194148.log
@@ -87,12 +87,12 @@
 │   └── async_s3_client.py
 |   └── pipeline.py
 ├── tests/
-│   └── test_config.py
-|   └── test_selectel_connection.py
-├── .env
-├── requirements.txt
-├── run_pipeline_task1&2.py
-├── run_pipeline_task3.py
+│   └── test_config.py  # Тестирование config.py
+|   └── test_selectel_connection.py # Тестирование соединения к S3
+├── .env              # Параметры подключения к S3
+├── requirements.txt  # Зависимости
+├── run_pipeline_task1&2.py # Файл запуска для 1 и 2 заданий
+├── run_pipeline_task3.py   # Файл запуска для 3 задания
 ```   
 3) Методы `list_files()` и `file_exists()` добавлены в скрипт `async_s3_client.py`, который находится в папке `src`.
 4) Для выполнения заданий 1 и 2 нужно запустить скрипт `run_pipeline_task1&2.py`. Файлы для задания, для копирования в S3, сформируются автоматически. </br>

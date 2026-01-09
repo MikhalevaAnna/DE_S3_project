@@ -1,5 +1,6 @@
 import sys
 import os
+from config import config
 import asyncio
 import time
 from pathlib import Path

@@ -75,7 +75,6 @@ logger = setup_logging()
 # Импортируем модули из src
 try:
     from async_s3_client import AsyncObjectStorage
-    from config import config
 
     logger.info("✅ Модули успешно импортированы из src")
 except ImportError as e:

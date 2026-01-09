@@ -62,14 +62,14 @@
 │   └── processed/
 |   |   └── archive/
 |   |   |   └── 2026-01-08/
-|   |   │   │   └── employees_example.csv # Исходный файл, который обрабатывался в папке incoming
+|   |   │   │   └── employees_example.csv # Пример исходного файла, который обрабатывался в папке incoming
 |   │   |   |   └── salary_filtered_employees_example_1767891380.csv # Полученный файл, в результате работы пайплайна
 |   │   |   |   └── salary_filtered_employees_example_1767891434.csv # Полученный файл, в результате работы пайплайна
 |   │   |   |   └── salary_filtered_test_data_1767891387.csv # Полученный файл, в результате работы пайплайна
-|   │   |   |   └── test_data.csv # Исходный файл, который обрабатывался в папке incoming
+|   │   |   |   └── test_data.csv # Пример исходного файла, который обрабатывался в папке incoming
 │   └── temp/
 │   │   └── demo_versioning_previous_v_1767635318884375389.txt  # Скачанная предыдущая версия файла 
-|   │   └── demo_versioning_v1.txt
+|   │   └── demo_versioning_v1.txt # Так выглядят тестовые файлы для заданий 1 и 2
 │   │   └── demo_versioning_v2.txt
 │   │   └── demo_versioning_v3.txt
 ├── screenshots/

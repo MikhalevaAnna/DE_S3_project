@@ -86,7 +86,7 @@ class AsyncObjectStorage:
 
     async def _run_in_executor(self, func, *args, **kwargs):
         """Запускает синхронную функцию в executor."""
-        loop = asyncio.get_event_loop()
+        loop = asyncio.get_running_loop()
         return await loop.run_in_executor(None, partial(func, *args, **kwargs))
 
     async def upload(self, file_path: str, object_name: str) -> bool:

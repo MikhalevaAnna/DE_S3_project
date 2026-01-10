@@ -321,7 +321,7 @@ async def demonstrate_task_2(client: AsyncObjectStorage) -> None:
                         lines = f.readlines()
                         for line in lines[:6]:
                             logger.info(f"   {line.strip()}")
-                except:
+                except Exception:
                     logger.info(f"   (бинарные данные)")
                 logger.info(f"   {'─' * 40}")
     else:
